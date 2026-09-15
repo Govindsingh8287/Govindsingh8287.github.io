@@ -1,0 +1,54 @@
+.project-page {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.project-description {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.project-section {
+    margin-bottom: 50px;
+}
+
+.project-section h2 {
+    margin-bottom: 20px;
+}
+
+.dashboard-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-files {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.file-button,
+.back-button,
+.project-button {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.file-button:hover,
+.back-button:hover,
+.project-button:hover {
+    opacity: 0.85;
+}
+
+.back-button {
+    margin-top: 20px;
+}
