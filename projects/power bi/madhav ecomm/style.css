@@ -18,12 +18,18 @@
     margin-bottom: 20px;
 }
 
-.dashboard-image {
+.dashboard-preview {
     width: 100%;
-    height: auto;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.dashboard-preview img {
     display: block;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .project-files {
